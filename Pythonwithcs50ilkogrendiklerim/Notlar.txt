@@ -1,0 +1,169 @@
+input()
+print
+/////
+end=""
+sep=""
+\"bi şeyler\" (" kullanabilmeni sağlar "' bunları kullanmana gerek kalmadan)
+yeni gelen güncellemeyle print(f"what do you want to do,{name}") yani {} kullanabilirsin
+.strip()
+.capitalize()
+.title()
+.split(" ")mesela isim soyismde kullanabilirsin
+/////
+int for numbers
+float for real number 2,4
+round(number[, ndigits])
+:, otomatik olarak örn 999+1 =1,000 virgül ekler
+.2f
+def    define demek
+def main() main()
+return
+>,>=,<,<=,==,!=
+if
+elif
+else
+or
+and
+bool olabilir sadece true ya da false
+match ve case ve |
+/////
+while
+pythonda i++ yapamazsın :(
+for
+list
+range() kaç kere olmasını istiyosan _ akademik olarak bunu koyman da lazım
+continue break return
+len
+None
+////
+Syntax errors
+Value errors
+try ve except errorle ilgili bi şeyler
+NameErrors
+indexerrors
+pass
+raise
+//////
+librarrrysss random
+import
+from
+random.choice()
+random.randint(a,b)
+random.shuffle(x)
+////
+librarys statistics
+statistics.mean()
+///
+command-line arguments
+sys
+sys.argv
+//
+packages
+PYPI dan ya da cowsay den indirebilirsin packages
+pip (package manager)
+//
+APIs 
+requests
+JSON
+bazı şeyleri download etmek için şunu yaz pip hangiaddaysa.py yükleyeceğinşeyinismi
+indent
+///
+__name__(when you run a flie from the command line use before main()öyle yapmazsan düzgün istediğin gibi çalışmaz )
+///
+unittests
+assert 
+assertionError
+pytest önce şunu yazmalısın(pip install pytest)
+python aaa.py olarak değil de pytest olarak çalıştır
+pytest.raises(erortipi):
+////
+I/O
+list
+open
+file.write
+file.close
+with
+
+//
+csv dosyaları , yardımıyla verileri birbirinden ayrımanı sağlar text dosyasında öyle değildir
+csv de 3 , çalışmaz a,b/c ekleyebilirsin ama split(",") de değiştirmen lazım
+onun yerine csv library ekle import csv 23.py bak
+////
+re library email için fln
+re.search(pattern,string,flags=0)
+
+///
+CS50P lecture 7 Regular expressions
+
+    #any character exccept an @ sign == [^@]
+    # [] set of characters
+    # [^] complementing the set 
+    \d decimal digit
+    \D not a decimal digit
+    \s whitespace characters
+    \S not a whitespace character
+    \w word character as well as numbers and the underscore
+    \W not a word character
+    
+    # ^ mathes the start of the string
+    # $ matches the end of the string just before the newline at the end of the string
+    
+    A|B either A or b
+    (...) a grouop
+    (?:...) non-capturing version
+#######
+re.IGNORECASE
+re.MULTILINE
+re.DOTALL
+
+///
+:= it both allows you to assign a value rigth to left and ask a boolean question about it 
+
+/////
+Object oriented programming oop
+
+
+tuple (collection of values immutuable)
+
+classes
+instance variables
+__init__
+classesler çok daha fazlasına izin verir dictionarylerden
+raise 
+__str__
+@property
+decorations
+Using setters and getter allows to python to automatically detect when ur trying to manuallt set a value
+
+
+print(type("neyi merak ediyosan"))
+bu şekilde ne olduklarına bakabilirsin genelde çoğu zaten class dir
+
+@classmethod
+@staticmethod
+
+inheritance
+super() önem leveli katar
+
+operator overloading
+object.__add__(self, other)
+
+etcc
+
+set (datatype dır) list gibi ama değiş
+
+global
+constants (değiştirelemez hale getirir)
+type hints
+mypy () 
+pip install mypy 
+argparse ()
+unpacking *
+map(function,iterible) örn tüm harfleri büyütmeyi sağlar tek kodlar
+list comprehersions
+filter ()
+dictionary comprehersions
+generators (memory yetmezse diye kullanıyoruz
+yield şey olarak çalışır her seferinde bir data verir bi anda 100 tane kuzu fotosu çıkartmak yerine birer tane birer tane 100 tane koyun üretir
+)
+iterators
